@@ -7,6 +7,10 @@ import componentType from 'component-type';
 export default function prefixedVirtualElement(type, attributes, ...children) {
   let vnode = element(type, attributes, ...children)
 
+  if (!vnode.attributes) {
+    return vnode
+  }
+
   if (componentType(vnode.attributes.class) === 'array') {
     vnode.attributes.class = classNames.apply(null, vnode.attributes.class)
   }
