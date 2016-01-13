@@ -1,6 +1,6 @@
 {
   "name": "prefixed-virtual-element",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build virtual tree elements with class attributes and vendor-prefixed styles",
   "main": "lib/index.js",
   "scripts": {
@@ -21,10 +21,11 @@
   "author": "nanopx",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.2.3",
     "component-type": "^1.2.0",
     "deku": "~2.0.0-rc",
     "inline-style-prefixer": "^0.6.3",
-    "magic-virtual-element": "git+https://github.com/dekujs/magic-virtual-element.git"
+    "to-style": "^1.3.3"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
