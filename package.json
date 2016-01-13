@@ -1,6 +1,6 @@
 {
   "name": "prefixed-virtual-element",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Build virtual tree elements with class attributes and vendor-prefixed styles",
   "main": "lib/index.js",
   "scripts": {
